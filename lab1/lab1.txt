@@ -1,0 +1,5 @@
+name: Malene 
+major: computer science & game programming
+why in class: to learn programming
+what do you want to learn: programming and algorrithms
+anything else: nothing
