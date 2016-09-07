@@ -1,5 +1,5 @@
 /*
-creator: Malene Kavangh
+creator: Malene Kavanagh
 date: 8/31/16
 Purpose: the CoinStar machine 
 */
