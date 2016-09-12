@@ -1,0 +1,6 @@
+Algorithm for program #1
+
+Wages 
+
+week_Wage = (hour_Wage * hours) * week_Days 
+taxed_money = week_Wage / taxes
