@@ -2,5 +2,39 @@ Algorithm for program #1
 
 Wages 
 
-week_Wage = (hour_Wage * hours) * week_Days 
-taxed_money = week_Wage / taxes
+Variables{
+
+    hours
+    hour_wage
+    week_days
+    week_wage
+    taxes
+    taxed_money
+    var_extra
+    name
+}
+
+Input{
+
+    name
+    hours
+    hour_wage
+    week_days
+}
+
+Math{
+
+    week_wage = (hour_wage * hours) * week_days 
+    var_extra = week_wage / taxes
+    taxed_money = week_wage - var_extra
+}
+
+Output{
+
+    name
+    hours
+    rate
+    gross_pay
+    net_pay
+    
+}
