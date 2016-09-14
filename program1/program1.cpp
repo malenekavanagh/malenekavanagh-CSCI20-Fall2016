@@ -17,7 +17,7 @@ using namespace std;
 int main(){
     int hours;       // these are the variables
     float hour_wage;
-    int week_days;
+    int week_days = 5;
     float week_wage;
     float extra_var;
     float taxes = 0.17;
@@ -27,18 +27,16 @@ int main(){
     string name;
     float daily_rate; //what you get in a day
     
-    std::cout << "We are going to calculate wages" << std::endl;  // these will aquire the variables needed
-    std::cout << "input a name" << std::endl;
-    std::cin >> name;
+    // these will aquire the variables needed
     
-    std::cout << "input number of working hours" << std::endl;
-    std::cin >> hours;
+    std::cout << "input a name" << std::endl;
+    std::getline(cin, name);
     
     std::cout << "input wage per hour" << std::endl;
     std::cin >> hour_wage;
     
-    std::cout << "input how many days of the week worked" << std::endl;
-    std::cin >> week_days;
+    std::cout << "input number of working hours" << std::endl;
+    std::cin >> hours;
     
     //calculating hours, rate, gross pay, and net pay
     
