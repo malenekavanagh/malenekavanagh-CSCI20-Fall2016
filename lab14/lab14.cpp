@@ -1,7 +1,9 @@
 /*
 creator: Malene Kavanagh
 date:10/17/16
-puporse: find, 
+puporse: find the bugs in the code 
+
+(Sum of numbers)
 */
 
 #include <iostream>

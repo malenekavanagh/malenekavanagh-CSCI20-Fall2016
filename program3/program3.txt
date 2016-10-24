@@ -1,0 +1,23 @@
+Program 3 psuedo code
+ : Number Guessing Game
+ 
+need a class with the random-a-fiyer
+the variables in private
+class takes the min and max 
+puts min and max in the random-a-fiyer
+should produce number that is random
+
+main:
+
+asking for variables 
+
+then sending the variable to the class 
+
+retrive random number from class
+
+loop:
+counting the number of tries
+loop for higher or lower
+
+
+finish and output counted time
