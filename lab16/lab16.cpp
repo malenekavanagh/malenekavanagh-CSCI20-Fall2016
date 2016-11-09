@@ -39,7 +39,7 @@ int main(){
   
   std::cin >> fruit;  
   int b = 0;
-  while(fruit != menu[b] && b < 10){
+  while(fruit != menu[b] && b < 11){
     b++;
   }
   
