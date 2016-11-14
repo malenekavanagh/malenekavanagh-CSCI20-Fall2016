@@ -1,0 +1,50 @@
+Programming 2 algorithm
+
+Name: Malene Kavanagh
+
+variables
+{
+miles = 0
+yards = 0
+feet = 0 
+inches = 0
+
+meters = 0
+}
+
+functions/ classes{
+
+miles to yards ( miles * 1760 = yards)
+
+miles to feet ( miles * 5,280 = feet)
+
+miles to inches ( miles * 63360 = inches)
+
+miles to meters ( miles * 1609.344 = meters)
+
+yards to miles ( yards / 1760 = miles)
+
+yards to feet ( yards * 3 = feet)
+
+yards to inches ( yards * 36 = inches)
+
+yards to meters ( yards * 0.914 = meters)
+
+inches to meters ( inches * 0.0254 = meters)
+
+meters to miles ( meters / 1609.344 = miles)
+}
+
+
+main{
+
+cout << "pick one of the conversions...."
+
+cin << userstringinput;
+
+
+
+
+
+
+
