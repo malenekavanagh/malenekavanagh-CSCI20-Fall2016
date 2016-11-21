@@ -138,14 +138,14 @@ double convertions::GetInchesToFeet()const{
     return inches1 / (12);
 }
 
-int main(){
+int main(){  
     convertions convert;
     string from;
     string to;
     double fromNum;
     double toNum;
     std::cout << "this program converts measurements" << std::endl;
-    std::cout << "we have miles, yards, meters, feet and inchest " << std::endl;
+    std::cout << "we have miles, yards, meters, feet and inches" << std::endl;
     std::cout << "what do you want to convert" << std::endl;
     std::cin >> from;
     std::cout << "what do you want to convert to?" << std::endl;
@@ -297,6 +297,9 @@ int main(){
             std::cout << "sorry couldn't understand try again" << std::endl;
         }
     }
+    else{
+        std::cout << "sorry couldn't understaand try again" << std::endl;
+    }
     
-    std::cout << "converted " << fromNum << from << " to" << toNum << to << std::endl;
+    std::cout << "converted " << fromNum << " " << from << " to " << toNum << " " << to << std::endl;
 } 
