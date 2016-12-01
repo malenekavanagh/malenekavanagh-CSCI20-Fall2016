@@ -1,0 +1,9 @@
+deposit:7/7:-:300.00
+416:7/8:Albertsons:15.85
+417:7/9:Checker Auto:19.95
+418:7/10:Super Target:47.5
+deposit:7/15:-:300.00
+419:7/20:Albertsons:35.62
+deposit:8/1:-:300.00
+420:12/5:Home Depot:47.89
+421:12/10:Super Target:88.99

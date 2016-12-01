@@ -1,0 +1,61 @@
+Psudeo code
+
+use fstream
+
+class payeeadd{
+private:
+totalPayee
+public:
+void setTotal(Totalmoney);
+}
+double payeeadd::setTotal(Totalmoney){
+totalPayee = Totalmoney;
+Return totalPayee;
+}
+
+int main(){
+initiate ifstream name
+srint fileName
+
+request fileName
+create new file output
+open file 
+check if file opened correctly
+
+string DepositOrCheck[50];
+string Date[50];
+string names[50];
+double money[50];
+int i = 0;
+double totalEarn = 0;
+int payments;
+ 
+
+while(file is not at the end && i < 50){
+while(! == :){ // or file in until :
+from file >> DepositOrCheck[i];
+}
+while(! == :){
+from file >> Date[i];
+}
+while(! == :){
+getline(from file >> names[i]);
+}
+while(! == :){
+from file >> money[i];
+}
+
+input info to file in columns
+
+if(DepositOrCheck[i] == "deposit" || DepositOrCheck[i] == "Deposit"){
+money[i] = -money[i];
+}
+else{
+payments++;
+}
+totalEarn = totalEarn - money[i];
+next line of text
+i++
+}
+
+}
