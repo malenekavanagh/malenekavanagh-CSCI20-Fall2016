@@ -123,7 +123,7 @@ int main(){
         if(DorC[s] != "Deposit" && DorC[s] != "deposit"){
             outfile << Date[s] << " " << names[s] << " $" << money[s] << endl;
         }
-        else if(DorC[s] != "Deposit" && DorC[s] != "deposit"){
+        else if(DorC[s] == "Deposit" || DorC[s] == "deposit"){
             outfile << Date[s] << " " << DorC[s] << " $" << money[s] << endl;
         }
         s++;
@@ -133,7 +133,7 @@ int main(){
         outfile << count[t] << " payments to " << sameNames[t] << endl;
         t++;
     }
-    outfile << "$" <<endTotal << endl;
+    outfile << "your end total is $" <<endTotal << endl;
     std::cout << "your file has been prossesed and entered into outputCheckBook.txt " << std::endl;
     infile.close();
     outfile.close();

@@ -1,0 +1,41 @@
+pseudo code first write 
+
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+class count points{
+set wins
+set guesses
+getpointsfor tic tac
+getpointsfor rand nums
+};
+get tic tac{
+num of wins * 2
+}
+get rand nums{
+50 - num of guesses 
+}
+main 
+srand(time(0));
+a choice between tic tac toe and guesssing random numbers
+
+random guessing game{
+rand set number(0-50)
+while(userguesses != randSetNum){
+cout<< "guess num"
+cin user guesses num
+cout<< up or down
+count guesses
+}}
+
+tic_tac_toe[3][3] 
+tic-tac-toe game{
+plays 3 times
+
+}
+if rand set guesses
+if tic tac set wins
+ 
+if rand get randNum
+if tic tac get tic_tac_toe
